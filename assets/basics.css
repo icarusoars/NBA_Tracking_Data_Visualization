@@ -1,0 +1,93 @@
+body, html {
+  margin: 0;
+  width: 100%;
+}
+
+body {
+  /* background-color: blue; */
+  background-color: #f2f2f2;
+  font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.modebar{
+  display: none !important;
+}
+
+.wrapper-panel {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px lightgrey;
+  width:100%;
+  margin: 1em auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+
+.colorpicker {
+  size: 100;
+}
+
+#content {
+  /* background-color: green; */
+  width: 85vw;
+  margin: 0 auto;
+  height: 85vh;
+}
+
+#top {
+  height: 7vh;
+  margin-top: 1em;
+  /* background-color: purple; */
+}
+
+  #title {
+    /* border: 2px solid red; */
+  }
+
+  #github-button {
+    vertical-align: middle;
+  }
+
+#content-left {
+  /* border: 2px solid red; */
+}
+
+  #panel-prelims-filter {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #panel-visuals {
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+  }
+
+
+#content-right {
+  /* border: 2px solid red; */
+}
+
+  #panel-visualizer {
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 50%;
+  }
+  #possession-visualizer {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #possession-slider {
+    /* border: 2px solid red; */
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+  }

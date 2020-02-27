@@ -8,6 +8,8 @@ import numpy as np
 import pandas as pd
 
 
+
+
 def change_coord_format(ss_df):
     """
     Changes columns 'awayPlayers' and 'homePlayers' player location
